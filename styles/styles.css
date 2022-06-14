@@ -36,86 +36,78 @@ body {
     margin-left: 1vw;
 }
 
-.board {
+.box {
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    align-content:center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.game {
     display: flex;
-    /* grid-template-columns: repeat(3, auto); */
     justify-content: center;
     align-content: center;
-    margin-bottom: 20px;
-    margin-top: 7%;
+    margin-bottom: auto;
+    margin-top: auto;
     vertical-align: middle;
-    
-    
 }
 
-.player {
-    margin-right: 100px;
+.player
+.computer {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
     align-content: center;
-    color: rgb(185, 148, 78);
-    
+    color: black;
 }
 
-.vs {
-    
+.result {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 15%;
     margin-top: 220px;
 
+    font-weight: 700;
     font-size: 80px;
-    font-weight: bold;
-    color: rgb(255, 59, 59);
-}
-
-.comp {
-    margin-left: 100px;
-    color: rgb(185, 148, 78);
-}
-
-.box {
-    width: 190px;
-    height: 100px;
-    border: 0px solid rgb(255, 255, 255);
-    cursor: pointer;
-    align-items: center;
-    align-content:center;
     text-align: center;
-    padding-top: 20px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #BD0000;
 }
 
-.gameIcon {
-    height: 100px;
-
+.choicesbutton {
+    height: 5rem;
+    width: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
 }
 
-
-.batu{
-    height: 6.5rem;
-    width: 6.5rem;
+.comchoices {
+    height: 5rem;
+    width: 5rem;
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.kertas {
-    height: 6.5rem;
-    width: 6.5rem;
-    margin-top: auto;
-    margin-bottom: auto;
+.choicesbutton:hover {
+    transform: rotate(30deg);
 }
 
-.gunting {
-    height: 6.5rem;
-    width: 6.5rem;
-    margin-top: auto;
-    margin-bottom: auto;
+.resetbutton {
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
 }
 
-.refresh {
-   margin-bottom: 5rem;
-}
-
-.refreshIcon {
-    height: 6.5rem;
-    width: 6.5rem;
+.resetbutton:hover {
+    transform: rotate(90deg);
 }

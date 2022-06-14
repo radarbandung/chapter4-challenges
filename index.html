@@ -11,49 +11,55 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
+<!--Header-->
 <div class="header">
     <div class="back">&lt</div>
     <div class="title">ROCK PAPER SCISSORS</div>
 </div>
-<div class="board">
+
+<!--Game-->
+<div class="game">
+
+<!--Player-->
     <div class="player">
         <div class="box">
             <h1 class="playerTag">PLAYER</h1>
         </div>
-        <div onclick="playerTurn('rock')" class="box">
-            <input type="image" class="gameIcon batu" src="./assets/batu.png">
+        <div class="box">
+            <input type="image" class="choicesbutton" src="./assets/batu.png">
         </div>
-        <div onclick="playerTurn('paper')"class="box">
-            <input type="image" class="gameIcon kertas" src="./assets/kertas.png">
+        <div class="box">
+            <input type="image" class="choicesbutton" src="./assets/kertas.png">
         </div>
-        <div onclick="playerTurn('scissors')"class="box">
-            <input type="image" class="gameIcon gunting" src="./assets/gunting.png">
+        <div class="box">
+            <input type="image" class="choicesbutton" src="./assets/gunting.png">
         </div>
     </div>
-    <div class="vs">VS</div>
-    <div id="winResult"></div>
-    <div id="drawResult"></div>
-    <div id="loseResult"></div>
-    <div class="comp">
+
+<!--Result-->
+    <div class="result">VS</div>
+
+<!--Computer-->
+    <div class="computer">
         <div class="box">
             <h1 class="playerTag">COMPUTER</h1>
         </div>
         <div class="box">
-            <img class="gameIcon batu" src="./assets/batu.png">
+            <img class="comchoices" src="./assets/batu.png">
         </div>
         <div class="box">
-            <img class="gameIcon kertas" src="./assets/kertas.png"/>
+            <img class="comchoices" src="./assets/kertas.png"/>
         </div>
         <div class="box">
-            <img class="gameIcon gunting" src="./assets/gunting.png"/>
+            <img class="comchoices" src="./assets/gunting.png"/>
         </div>
      </div>
 </div>
 
 <!--Reset Button-->
-        <center class="refresh">
-    <img class="refreshIcon" src="./assets/refresh.png">
-        </center>
+<center>
+    <input type="image" class="resetbutton" src="./assets/refresh.png">
+ </center>
 
-<script src="./js/script.js"></script>
+<!--<script src="./js/script.js"></script>-->
 </html>
