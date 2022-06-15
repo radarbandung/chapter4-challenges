@@ -55,8 +55,7 @@ body {
     vertical-align: middle;
 }
 
-.player
-.computer {
+.player,.computer {
     font-weight: 700;
     font-size: 20px;
     line-height: 49px;
@@ -75,7 +74,7 @@ body {
     margin-top: 220px;
 
     font-weight: 700;
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
